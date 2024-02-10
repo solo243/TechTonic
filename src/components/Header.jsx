@@ -1,6 +1,7 @@
 import React from 'react'
 import Navbar from './Navbar'
 import Hero from '../assets/hero.png'
+import Deco from '../assets/deco.png'
 function Header() {
     return (
         <section className='bg-[#292930] w-full  '>
@@ -11,6 +12,7 @@ function Header() {
                  flex md:flex-row flex-col justify-between 
                  overflow-hidden '>
                     <div>
+
                         <div className='text-yellow-300 mb-3 font-semibold'>
                             Hi, we are TechTonic
                         </div>

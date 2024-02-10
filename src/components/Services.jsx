@@ -7,11 +7,11 @@ function Services() {
     const servicesl = [
         {
             logo: appLogo,
-            title: "Application Devlope"
+            title: "Application Develop"
 
         }, {
             logo: websiteLogo,
-            title: "Website Devlope"
+            title: "Website Develop"
 
         },
         {
