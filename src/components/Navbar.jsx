@@ -2,13 +2,17 @@ import React, { useState } from 'react'
 import { IoIosMenu } from "react-icons/io";
 import { IoMdClose } from "react-icons/io";
 import Logo from '../assets/logo11.png'
+import { motion } from 'framer-motion';
 function Navbar() {
+
     const [open, Setopen] = useState(false)
     const menuOption = ["Home", "Projects", "About", "Contect"]
     return (
         <nav className='flex justify-between h-14 items-center px-3'>
             <img src={Logo} className='h-20 w-30 py-2' />
-            <ul className=' gap-10 md:flex hidden '>
+            <motion.ul initial={{ y: '-200%' }}
+                animate={{ y: '0%' }}
+                transition={{ duration: 1.2, easings: "linear" }} className=' gap-10 md:flex hidden '>
                 {menuOption.map((item, index) => (
                     <li className='hover:bg-[#9270ff]  text-white
                      px-3 py-1 rounded-full 
@@ -16,7 +20,7 @@ function Navbar() {
                         {item}
                     </li>
                 ))}
-            </ul>
+            </motion.ul>
             {/* {Movible} */}
             <ul className={`fixed
              top-0 z-50 md:hidden 

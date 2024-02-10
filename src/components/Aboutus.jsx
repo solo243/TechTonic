@@ -8,10 +8,10 @@ function Aboutus() {
                     <div className='font-semibold text-primary md:text-3xl text-[6vw]'>
                         We are Devlopers
                     </div>
-                    <div className=' font-semibold text-white md:text-[3.7vw]  text-[8vw]  tracking-tight'>
+                    <div className=' font-semibold text-white md:text-[3.5vw]  text-[8vw]  '>
                         We can develope per
                     </div>
-                    <div className='font-semibold leading-[2vw] text-white md:text-[3.7vw] text-[8vw] mb-8'>
+                    <div className='font-semibold leading-7 text-white md:text-[3.7vw] text-[8vw] mb-8'>
                         Your Requirement
                     </div>
                     <div className=' text-gray-500 md:text-[1.3vw] text-1xl md:w-[40vw]  w-[80vw]'>
