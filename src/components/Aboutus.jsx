@@ -2,7 +2,7 @@ import React from 'react'
 import Hero from '../assets/About.png'
 function Aboutus() {
     return (
-        <section className='w-full  flex'>
+        <section id="about" className='w-full  flex'>
             <div className='flex md:flex-row flex-col '>
                 <div className='md:py-10 py-1 px-10 flex flex-col justify-center w-full '>
                     <div className='font-semibold text-primary md:text-3xl text-[6vw]'>

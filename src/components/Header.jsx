@@ -4,9 +4,8 @@ import Hero from '../assets/hero.png'
 import Deco from '../assets/deco.png'
 import { motion } from 'framer-motion'
 function Header() {
-
     return (
-        <section className='bg-[#292930] w-full  '>
+        <section id='Home' className='bg-[#292930] w-full  '>
             <Navbar />
             <div>
                 <div className='w-full
@@ -31,14 +30,13 @@ function Header() {
                         </div>
 
                         <motion.button
-                            
                             className='bg-primary  font-bold py-3  md:px-10 px-10 rounded-full md:mt-[3.7vw] mt-9 text-white'>
                             Contect us
                         </motion.button>
                     </div>
-                    <motion.div initial={{ y: "0%" }} 
-                    animate={{ y: "3%" }}
-                     transition={{ repeat: Infinity, duration: 2, easings: "linear", repeatType: "reverse" }}>
+                    <motion.div initial={{ y: "0%" }}
+                        animate={{ y: "3%" }}
+                        transition={{ repeat: Infinity, duration: 2, easings: "linear", repeatType: "reverse" }}>
 
                         <img src={Hero} className=' pb-100 h-35 md:h-[33vw] md:mt-0 mt-1' />
                     </motion.div>

@@ -2,7 +2,7 @@ import React from 'react'
 
 function Contectus() {
     return (
-        <div className=' w-full'>
+        <section id="contect" className=' w-full'>
             <div className='w-full flex justify-center text-primary
              md:text-2xl text-2xl pt-10 pb-4 font-semibold '>
                 Contect
@@ -59,7 +59,7 @@ function Contectus() {
                     </div>
                 </div>
             </div>
-        </div>
+        </section>
     )
 }
 
