@@ -33,23 +33,16 @@ function Contectus() {
                             let's make magic together!                        </div>
                         {/* First name last name  */}
                         <div className='flex flex-col'>
-                            {/* <lable className='text-white mb-[0.7vw] font-medium'>First name </lable> */}
                             <input type='text' placeholder='Name' className='bg-[#292930] px-4 text-white border-gray-500 h-12 border-2 rounded-md' />
                         </div>
                         {/* email */}
                         <div>
                             <div className='flex flex-col mt-7'>
-                                {/* <lable className='text-white mb-[0.7vw] font-medium'>
-                                    email
-                                </lable> */}
                                 <input type='email' placeholder='Email' className='bg-[#292930] px-4 text-white border-gray-500 h-12 border-2 rounded-md' />
                             </div>
                         </div>
                         <div>
                             <div className='flex flex-col mt-7'>
-                                {/* <lable className='text-white mb-[0.7vw] font-medium'>
-                                    message
-                                </lable> */}
                                 <textarea type='text' placeholder='Meassage' className='bg-[#292930] py-2  px-4 text-white border-gray-500 h-20 border-2 rounded-md' />
                             </div>
                         </div>

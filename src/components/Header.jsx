@@ -4,6 +4,9 @@ import Hero from '../assets/hero.png'
 import Deco from '../assets/deco.png'
 import { motion } from 'framer-motion'
 function Header() {
+
+
+
     return (
         <section id='Home' className='bg-[#292930] w-full  '>
             <Navbar />
@@ -16,13 +19,18 @@ function Header() {
                         <div className='text-yellow-300 mb-4 py-1 font-semibold'>
                             Hi, we are TechTonic
                         </div>
-                        <h1 className='flex font-semibold md:text-[5vw] text-white text-4xl'>
-                            TechTonic
-                            Studio
-                        </h1>
-                        <h1 className='md:mt-[2.6vw] font-semibold md:text-[5vw] text-white text-4xl'>
-                            Innovative <span className='text-[#9270ff] font-bold'>Excellence </span>
-                        </h1>
+                        <motion.div initial={{ x: "-130%", opacity: -10 }} animate={{ x: "0%", opacity: 1 }}
+                            transition={{  duration: 2, }} >
+                            <h1
+                                className='flex font-semibold md:text-[5vw] text-white text-4xl'>
+                                TechTonic
+                                Studio
+                            </h1>
+                            <h1 className='md:mt-[2.6vw] font-semibold md:text-[5vw] text-white text-4xl'>
+                                Innovative <span className='text-[#9270ff] font-bold'>Excellence </span>
+                            </h1>
+                        </motion.div>
+
                         <div className='text-gray-400 md:mt-10 mt-[4vw] md:w-[37vw] w-[80vw]'>
                             Welcome to our
                             TechTonic studio, where innovation thrives and visions take flight. With a fusion of creativity and cutting-edge technology, we craft bespoke websites and transformative applications tailored to elevate your brand. Let's
