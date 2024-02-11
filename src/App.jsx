@@ -5,6 +5,7 @@ import LocomotiveScroll from 'locomotive-scroll';
 import Aboutus from './components/Aboutus';
 import Services from './components/Services';
 import Projects from './components/Projects';
+import Contectus from './components/Contectus';
 
 function App() {
   const locomotiveScroll = new LocomotiveScroll();
@@ -15,7 +16,8 @@ function App() {
       <Header />
       <Aboutus />
       <Services />
-      <Projects />
+      <Contectus />
+      {/* <Projects /> */}
     </div>
   )
 }

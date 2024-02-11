@@ -31,14 +31,17 @@ function Header() {
                         </div>
 
                         <motion.button
-                            // initial={{ x:  -100, opacity: 0 }}
-                            // animate={{ x: "0%", opacity: 1 }}
-                            // transition={{ easings: "linear", repeat: Infinity, duration: 1.5 }}
+                            
                             className='bg-primary  font-bold py-3  md:px-10 px-10 rounded-full md:mt-[3.7vw] mt-9 text-white'>
                             Contect us
                         </motion.button>
                     </div>
-                    <img src={Hero} className='pb-100 h-35 md:h-[33vw] md:mt-0 mt-8' />
+                    <motion.div initial={{ y: "0%" }} 
+                    animate={{ y: "3%" }}
+                     transition={{ repeat: Infinity, duration: 2, easings: "linear", repeatType: "reverse" }}>
+
+                        <img src={Hero} className=' pb-100 h-35 md:h-[33vw] md:mt-0 mt-1' />
+                    </motion.div>
                 </div>
             </div>
         </section>
