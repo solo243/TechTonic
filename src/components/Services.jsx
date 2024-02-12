@@ -7,22 +7,22 @@ function Services() {
     const servicesl = [
         {
             logo: appLogo,
-            title: "Application Develop"
-
+            title: "Application Development",
+            dis: "Setting new standards with robust mobile apps. Maximize ROI with our expert development services"
         }, {
             logo: websiteLogo,
-            title: "Website Develop"
-
+            title: "Website Development",
+            dis: "Design and developing immersive web applications and portals to drive digital transformation."
         },
         {
             logo: uiux,
-            title: "UI/UX Design"
-
+            title: "UI/UX Design",
+            dis: "Design expertise meets client insights for impactful solutions. Merging experience and industry knowledge for effective results."
         },
         {
             logo: market,
-            title: "Digital Marketing"
-
+            title: "Digital Marketing",
+            dis: "We constantly measure our efforts to engage new customers, increase ROI, and achieve unique business goals."
         },
     ]
 
@@ -45,8 +45,7 @@ function Services() {
                             {item.title}
                         </div>
                         <div className='text-gray-500 text-center'>
-                            Lorem ipsum dolor, sit amet consectetur adipisicing
-                            elit. Rerum nisi quisquam aliquam a amet consequatur
+                            {item.dis}
                         </div>
                     </div>
                 ))}

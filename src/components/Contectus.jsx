@@ -5,7 +5,7 @@ function Contectus() {
         <section id="contect" className=' w-full'>
             <div className='w-full flex justify-center text-primary
              md:text-2xl text-2xl pt-10 pb-4 font-semibold '>
-                Contect
+                Contact
             </div>
             <div className=' flex justify-center text-white md:text-[2vw] font-bold text-[5.5vw] '>
                 I Want to Hear from You

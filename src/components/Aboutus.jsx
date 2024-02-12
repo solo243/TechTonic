@@ -4,7 +4,7 @@ function Aboutus() {
     return (
         <section id="about" className='w-full  flex'>
             <div className='flex md:flex-row flex-col '>
-                <div className='md:py-10 py-1 px-10 flex flex-col justify-center w-full '>
+                <div data-scroll  className='md:py-10 py-1 px-10 flex flex-col justify-center w-full '>
                     <div className='font-semibold text-primary md:text-3xl text-[6vw]'>
                         We are Devlopers
                     </div>
@@ -15,9 +15,7 @@ function Aboutus() {
                         Your Requirement
                     </div>
                     <div className=' text-gray-500 md:text-[1.3vw] text-1xl md:w-[40vw]  w-[80vw]'>
-                        Lorem ipsum dolor sit amet, consectetur adipisicing elit.
-                        Distinctio, non sequi! Culpa quos, impedit, dignissimos, nam consequuntur placeat iusto excepturi quisquam deleniti
-                        eligendi modi maiores id aperiam amet a eius.
+                        Welcome to TechTonic, where we turn your vision into reality. Our dedicated team specializes in crafting bespoke development solutions tailored to your needs. With a focus on excellence and innovation, we exceed expectations at every turn. Let us empower your business to thrive in today's dynamic landscape. Experience the difference with TechTonic.
                     </div>
                 </div>
                 <img src={Hero} className='md:w-[60vw] lg:flex w-[100vw] px-8 md:h-[40vw] h-[80vw] ' />

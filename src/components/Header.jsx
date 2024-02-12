@@ -15,7 +15,7 @@ function Header() {
                  py-10 md:py-24 px-8 md:px-16 
                  flex md:flex-row flex-col justify-between 
                  overflow-hidden '>
-                    <div>
+                    <motion.div  data-scroll data-scroll-speed="0.2" >
                         <div className='text-yellow-300 mb-4 py-1 font-semibold'>
                             Hi, we are TechTonic
                         </div>
@@ -41,11 +41,10 @@ function Header() {
                             className='bg-primary  font-bold py-3  md:px-10 px-10 rounded-full md:mt-[3.7vw] mt-9 text-white'>
                             Contect us
                         </motion.button>
-                    </div>
+                    </motion.div>
                     <motion.div initial={{ y: "0%" }}
                         animate={{ y: "3%" }}
                         transition={{ repeat: Infinity, duration: 2, easings: "linear", repeatType: "reverse" }}>
-
                         <img src={Hero} className=' pb-100 h-35 md:h-[33vw] md:mt-0 mt-1' />
                     </motion.div>
                 </div>
