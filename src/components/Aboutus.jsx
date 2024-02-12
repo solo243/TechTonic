@@ -6,7 +6,7 @@ function Aboutus() {
 
         <section id="about" className='w-full  flex'>
             <div className='flex md:flex-row flex-col '>
-                <motion.div 
+                <motion.div data-scroll 
                     className='md:py-10 py-1 px-10 flex flex-col justify-center w-full '>
                     <div className='font-semibold text-primary md:text-3xl text-[6vw]'>
                         We are Devlopers
