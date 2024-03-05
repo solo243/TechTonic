@@ -17,14 +17,13 @@ function Header() {
                  overflow-hidden '>
                     <motion.div  data-scroll data-scroll-speed="0.2" >
                         <div className='text-yellow-300 mb-4 py-1 font-semibold'>
-                            Hi, we are TechTonic
+                            Hi, we are AJ Tech Solution
                         </div>
                         <motion.div initial={{ x: "-130%", opacity: -10 }} animate={{ x: "0%", opacity: 1 }}
                             transition={{  duration: 2, }} >
                             <h1
                                 className='flex font-semibold md:text-[5vw] text-white text-4xl'>
-                                TechTonic
-                                Studio
+                               AJ Tech Solution
                             </h1>
                             <h1 className='md:mt-[2.6vw] font-semibold md:text-[5vw] text-white text-4xl'>
                                 Innovative <span className='text-[#9270ff] font-bold'>Excellence </span>
@@ -33,7 +32,7 @@ function Header() {
 
                         <div className='text-gray-400 md:mt-10 mt-[4vw] md:w-[37vw] w-[80vw]'>
                             Welcome to our
-                            TechTonic studio, where innovation thrives and visions take flight. With a fusion of creativity and cutting-edge technology, we craft bespoke websites and transformative applications tailored to elevate your brand. Let's
+                            AJ Tech Solution, where innovation thrives and visions take flight. With a fusion of creativity and cutting-edge technology, we craft bespoke websites and transformative applications tailored to elevate your brand. Let's
                             embark on a journey of digital excellence together
                         </div>
 

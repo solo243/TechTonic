@@ -9,7 +9,8 @@ function Navbar() {
     const menuOption = ["Home", "Projects", "About", "Contect"]
     return (
         <nav className='flex justify-between h-14 items-center px-3'>
-            <img src={Logo} className='h-20 w-30 py-2' />
+            {/* <img src={Logo} className='h-20 w-30 py-2' /> */}
+            <p className='text-white'>LOGO HERE</p>
             <motion.ul initial={{ y: '-200%' }}
                 animate={{ y: '0%' }}
                 transition={{ duration: 1.2, easings: "linear" }} className=' gap-10 md:flex hidden '>

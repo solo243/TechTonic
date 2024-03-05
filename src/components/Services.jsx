@@ -3,27 +3,47 @@ import appLogo from "../assets/app2.png"
 import websiteLogo from '../assets/websiteicon.png'
 import uiux from '../assets/uiux.png'
 import market from '../assets/market.png'
+import cyber from '../assets/cyber_security.svg'
+import cloud from '../assets/cloud_computing.svg'
+import service from '../assets/it_support.svg'
+import data_anal from '../assets/data_analytics.svg'
+import technology from '../assets/technology_consult.svg'
 import { motion } from 'framer-motion'
 function Services() {
     const servicesl = [
         {
             logo: appLogo,
-            title: "Application Development",
-            dis: "Setting new standards with robust mobile apps. Maximize ROI with our expert development services"
+            title: "Software Development",
+            dis: "Custom software solutions for various platforms and industries.            "
         }, {
             logo: websiteLogo,
-            title: "Website Development",
-            dis: "Design and developing immersive web applications and portals to drive digital transformation."
+            title: "Web Design and Development",
+            dis: "Creating visually appealing and user-friendly websites for businesses."
         },
         {
-            logo: uiux,
-            title: "UI/UX Design",
-            dis: "Design expertise meets client insights for impactful solutions. Merging experience and industry knowledge for effective results."
+            logo: cyber,
+            title: "Cybersecurity Solutions",
+            dis: "Protecting digital assets through comprehensive cybersecurity measures."
         },
         {
-            logo: market,
-            title: "Digital Marketing",
-            dis: "We constantly measure our efforts to engage new customers, increase ROI, and achieve unique business goals."
+            logo: service,
+            title: "IT Support and Managed Services",
+            dis: "Proactive IT support and management for businesses, including computer and laptop repair services."
+        },
+            {
+            logo: data_anal,
+            title: "Data Analytics and Business Intelligence",
+            dis: "Extracting insights from data to drive informed business decisions."
+        },
+        {
+            logo: cloud,
+            title: "Cloud Computing Services",
+            dis: "Providing scalable and efficient cloud infrastructure solutions."
+        },
+        {
+            logo: technology,
+            title: "Technology Consultation",
+            dis: "Offering expert advice and guidance on IT strategies, including AI integration, printer solutions, and CCTV camera systems"
         },
     ]
 
@@ -40,7 +60,7 @@ function Services() {
             </motion.div>
           
             <div className='gap-6 flex-grow flex-auto  mb-10
-            justify-around  overflow-hidden flex md:flex-row flex-col w-full md:mt-10 mt-10  ' >
+            justify-around  overflow-hidden flex md:flex-row flex-col w-full md:mt-10 mt-10 flex-wrap ' >
                 {servicesl.map((item, index) => (
                     <div key={index} className=' max-w-[350px]  flex-col items-center self-center flex md:w-[20vw] w-[80vw] 
                   '>
